@@ -10,12 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* [Breno Makay Samora de Souza] (https://github.com/brenodesouzaa)
-* [Davi Silva Dias] (https://github.com/Davi86)
-* [Pedro Henrique Chiachio Cardoso] (https://github.com/chiachio-pedro)
-* [Rendryki Felipe de Melo Silva] (https://github.com/Rendryki)
-* [Vinicius Delmo de Oliveira Melo] (https://github.com/Viniciusdelmo)
-* [Yohan Gregorio dos Santos] (https://github.com/yohangreg)
+* Breno Makay Samora de Souza - @brenodesouzaa
+* Davi Silva Dias - @Davi86
+* Pedro Henrique Chiachio Cardoso - @chiachio-pedro
+* Rendryki Felipe de Melo Silva - @Rendryki
+* Vinicius Delmo de Oliveira Melo - @Viniciusdelmo
+* Yohan Gregorio dos Santos - @yohangreg
 
 ## Orientadora
 
