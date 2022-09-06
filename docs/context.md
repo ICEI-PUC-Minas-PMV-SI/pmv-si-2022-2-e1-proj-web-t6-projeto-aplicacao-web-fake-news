@@ -1,31 +1,31 @@
 # Introdução
 
-
 ## O que é o Problema Central?
 
-No mundo moderno e globalizado a informação é compartilhada com um simples clique, com isso as "fake news" ganharam força e nos últimos tempos vem sendo uma ferramenta de desinformação utilizada por pessoas ou grupos mal intencionados que tem gerado impactos negativos em toda a sociedade.
+No mundo moderno e globalizado a informação é compartilhada com um simples clique, com isso as "fake news" ganharam força e nos últimos tempos vem sendo uma ferramenta de desinformação utilizada por pessoas ou grupos mal intencionados, gerando assim impactos negativos em toda a sociedade.
+
+Portanto,
 
 O que define uma “fake news” e quais seus impactos na sociedade?
 
 ## Qual é o objetivo geral da pesquisa?
 
-Explicar o fenômeno das “fake news” e sua influência na sociedade. Além de combatê-las e oferecer ferramentas para tal.
+Explicar o fenômeno das “fake news” e sua influência na sociedade. Além de combatê-las oferecendo ferramentas para o tal.
 
 ## Quais os objetivos específicos da pesquisa?
 
-Apontar o prejuízo que a disseminação das notícias falsas podem causar.
-Criar ferramenta que irá identificar informações propositalmente enganosas.
-Ensinar, de forma justa e imparcial, a disseminação das informações verídicas.
-Analisar e identificar características recorrentes em fake news.
-Debater formas eficientes de combater as fake news.
-Esquematizar maneiras eficientes de comprovar a veracidade ou não de notícias duvidosas.
-Propor fontes confiáveis para a conferência de notícias e informações duvidosas.
-Valorizar o compartilhamento das informações de forma imparcial e confiável.
+- Apontar o prejuízo que a disseminação das notícias falsas podem causar.
+- Criar ferramenta que irá identificar informações propositalmente enganosas.
+- Ensinar, de forma justa e imparcial, a disseminação das informações verídicas.
+- Analisar e identificar características recorrentes em "fake news".
+- Debater formas eficientes de combater as "fake news".
+- Esquematizar maneiras eficientes de comprovar a veracidade ou não de notícias duvidosas.
+- Propor fontes confiáveis para a conferência de notícias e informações duvidosas.
+- Valorizar o compartilhamento das informações de forma imparcial e confiável.
 
 ## Qual a justificativa desse tema/projeto?
 
-O que impulsionou a realização de tal trabalho, foi a necessidade de entender, combater e desestimular a prática de fake news que constantemente trazem consequências prejudiciais à sociedade. Elaborando assim, uma aplicação web com o intuito de explicar melhor o tema, realizando esquematizações e análises da temática no mundo atual, como sua estrutura e repercussões na vida social e no contexto dos sistemas de informação. Tal aplicação irá atuar como referência a pessoas dos mais diversos núcleos sociais, uma vez que tal prática não se limita a renda, credo ou cor e, que busquem se informar melhor sobre a prática e como combatê-la de forma eficiente, além de se instruir com informações de veracidade confirmada. Para o tal, o embasamento teórico utilizado para a criação da aplicação, foram conhecimentos de HTML, Javascript e CSS para fins de desenvolvimento web, assim como a consulta em materiais teóricos de relevância sobre o tema e a interação com o conteúdo de outros sites que possibilitasse uma ferramenta robusta para, ao mesmo tempo, combate às fake news e disseminação de notícias de procedência confiável.
-
+O que impulsionou a realização de tal trabalho, foi a necessidade de entender, combater e desestimular a prática de "fake news" que constantemente trazem consequências prejudiciais à sociedade. Elaborando assim, uma aplicação web com o intuito de explicar melhor o tema, realizando esquematizações e análises da temática no mundo atual, como sua estrutura e repercussões na vida social e no contexto dos sistemas de informação. Tal aplicação irá atuar como referência a pessoas dos mais diversos núcleos sociais, uma vez que tal prática não se limita a renda, credo ou cor e, que busquem se informar melhor sobre a prática e como combatê-la de forma eficiente, além de se instruir com informações de veracidade confirmada. Para o tal, o embasamento teórico utilizado para a criação da aplicação, foram conhecimentos de HTML, Javascript e CSS para fins de desenvolvimento web, assim como a consulta em materiais teóricos de relevância sobre o tema e a interação com o conteúdo de outros sites que possibilitassem uma ferramenta robusta para, ao mesmo tempo, combate às "fake news" e disseminação de notícias de procedência confiável.
 
 ## Público-Alvo
 
