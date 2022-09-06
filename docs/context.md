@@ -1,46 +1,32 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
-## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+## O que é o Problema Central?
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+No mundo moderno e globalizado a informação é compartilhada com um simples clique, com isso as "fake news" ganharam força e nos últimos tempos vem sendo uma ferramenta de desinformação utilizada por pessoas ou grupos mal intencionados que tem gerado impactos negativos em toda a sociedade.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+O que define uma “fake news” e quais seus impactos na sociedade?
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+## Qual é o objetivo geral da pesquisa?
 
-## Objetivos
+Explicar o fenômeno das “fake news” e sua influência na sociedade. Além de combatê-las e oferecer ferramentas para tal.
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+## Quais os objetivos específicos da pesquisa?
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Apontar o prejuízo que a disseminação das notícias falsas podem causar.
+Criar ferramenta que irá identificar informações propositalmente enganosas.
+Ensinar, de forma justa e imparcial, a disseminação das informações verídicas.
+Analisar e identificar características recorrentes em fake news.
+Debater formas eficientes de combater as fake news.
+Esquematizar maneiras eficientes de comprovar a veracidade ou não de notícias duvidosas.
+Propor fontes confiáveis para a conferência de notícias e informações duvidosas.
+Valorizar o compartilhamento das informações de forma imparcial e confiável.
 
-## Justificativa
+## Qual a justificativa desse tema/projeto?
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O que impulsionou a realização de tal trabalho, foi a necessidade de entender, combater e desestimular a prática de fake news que constantemente trazem consequências prejudiciais à sociedade. Elaborando assim, uma aplicação web com o intuito de explicar melhor o tema, realizando esquematizações e análises da temática no mundo atual, como sua estrutura e repercussões na vida social e no contexto dos sistemas de informação. Tal aplicação irá atuar como referência a pessoas dos mais diversos núcleos sociais, uma vez que tal prática não se limita a renda, credo ou cor e, que busquem se informar melhor sobre a prática e como combatê-la de forma eficiente, além de se instruir com informações de veracidade confirmada. Para o tal, o embasamento teórico utilizado para a criação da aplicação, foram conhecimentos de HTML, Javascript e CSS para fins de desenvolvimento web, assim como a consulta em materiais teóricos de relevância sobre o tema e a interação com o conteúdo de outros sites que possibilitasse uma ferramenta robusta para, ao mesmo tempo, combate às fake news e disseminação de notícias de procedência confiável.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Homens e mulheres, de 38 a 84 anos, casados ou solteiros, com ou sem filhos, de qualquer nível de instrução ou classe social, sendo brasileiros ou imigrantes, moradores de cidades pequenas a grandes. Definidos principalmente, pela posse de dispositivos com acesso à internet, sem muito tempo livre disponível para verificar a informação em várias fontes, interessados em se informar com em notícias atuais verídicas.
