@@ -1,4 +1,4 @@
-# Título do Projeto
+# Not so Fake
 
 `CURSO: Sistemas de Informação`
 
@@ -10,14 +10,14 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Breno Makay Samora de Souza
-* Davi Silva Dias
-* Pedro Henrique Chiachio Cardoso
-* Rendryki Felipe de Melo Silva
-* Vinicius Delmo de Oliveira Melo
-* Yohan Gregorio dos Santos
+* Breno Makay Samora de Souza @brenodesouzaa
+* Davi Silva Dias @Davi86
+* Pedro Henrique Chiachio Cardoso @chiachio-pedro
+* Rendryki Felipe de Melo Silva @Rendryki
+* Vinicius Delmo de Oliveira Melo @Viniciusdelmo
+* Yohan Gregorio dos Santos @yohangreg
 
-## Orientador
+## Orientadora
 
 * Simone de Assis Alves da Silva
 
