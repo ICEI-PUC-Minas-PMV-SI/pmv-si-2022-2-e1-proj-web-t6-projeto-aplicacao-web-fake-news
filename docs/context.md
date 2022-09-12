@@ -6,7 +6,7 @@ As fake news e a desinformação em nossa sociedade.
 
 ## Qual é o objetivo geral da pesquisa?
 
-Explicar o fenômeno das “fake news” e sua influência na sociedade. Além de combatê-las oferecendo ferramentas para o tal.
+Desenvolver uma aplicação web com teor informativo e que apresente uma ferramenta de busca de notícias confiáveis.
 
 ## Quais os objetivos específicos da pesquisa?
 
