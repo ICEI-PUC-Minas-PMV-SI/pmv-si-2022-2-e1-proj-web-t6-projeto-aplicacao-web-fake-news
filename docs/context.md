@@ -6,7 +6,7 @@ As fake news e a desinformação em nossa sociedade.
 
 ## Qual é o objetivo geral da pesquisa?
 
-Desenvolver uma aplicação web com teor informativo e que apresente uma ferramenta de busca de notícias confiáveis.
+Desenvolver uma aplicação web com teor informativo e que apresente uma ferramenta de busca de notícias confiáveis. Tendo utilidade em diferentes camadas sociais, no âmbito do acesso a informação.
 
 ## Quais os objetivos específicos da pesquisa?
 
