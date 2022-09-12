@@ -2,11 +2,7 @@
 
 ## O que é o Problema Central?
 
-No mundo moderno e globalizado a informação é compartilhada com um simples clique, com isso as "fake news" ganharam força e nos últimos tempos vem sendo uma ferramenta de desinformação utilizada por pessoas ou grupos mal intencionados, gerando assim impactos negativos em toda a sociedade.
-
-Portanto,
-
-O que define uma “fake news” e quais seus impactos na sociedade?
+As fake news e a desinformação em nossa sociedade.
 
 ## Qual é o objetivo geral da pesquisa?
 
