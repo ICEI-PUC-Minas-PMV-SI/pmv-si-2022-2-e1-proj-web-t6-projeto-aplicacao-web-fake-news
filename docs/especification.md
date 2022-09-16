@@ -1,6 +1,10 @@
 # Especificações do Projeto
 
--- Adicionar visão geral do problema, justificando a relação da solução com as personas, user-stories e etc.
+A aplicação web "Not So Fake" foi desenvolvida mirando atingir um amplo público alvo, pessoas de diversas idades, etnias e classes sociais, mas, marcadas pelo 
+interesse em se informar com fatos verídicas de forma fácil. O fluxo de informações se dá de forma ativa e passiva. A forma ativa é definida por um motor de busca 
+que irá utilizar como filtro sites jornalísticos com credibilidade perante a sociedade, para o usuário realizar a pesquisa do tema de seu interesse e ver as 
+correspondências mais confiáveis. A parte passiva se relaciona a um feed de RSS dos tais sites supracitados, além de um newsletter de rotina definida pelo usuário. 
+A aplicação em geral irá operar totalmente em front-end, utilizando de HTML, CSS e Javascript.
 
 ## Personas
 
