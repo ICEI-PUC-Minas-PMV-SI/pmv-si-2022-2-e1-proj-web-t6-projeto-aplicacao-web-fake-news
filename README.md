@@ -6,7 +6,14 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O mundo contemporâneo é definido pela agilidade de comunicação entre as pessoas. Uma pessoa no Brasil pode saber o que está acontecendo com algum conhecido no Japão 
+em tempo real, a informação se tornou uma grande aliada na evolução da sociedade, podendo ser considerada até vital. No entanto, com a facilidade em disseminar 
+informações, o fluxo de notícias inverídicas se tornou algo constante, podendo causar desentendimentos e até mesmo manipular a própria realidade, tais informações 
+falsas são as famosas "Fake News". Ademais, estudos realizados pela Reuters junto da universidade de Oxford, indicam que o Brasil lidera o ranking de 40 países que 
+possuem mais pessoas preocupadas com "Fake News", 84% dos brasileiros estão preocupados com a disseminação de notícias falsas na internet. Logo, a preocupação do 
+combate a desinformação é uma tendência dentre o público brasileiro. Portanto, o desenvolvimento de tal aplicação web busca reafirmar a veracidade e, importância de 
+informações de fontes confiáveis quando comparadas a fontes duvidosas da internet, procurando servir como aliada do usuário em sua rotina de informação, através de 
+um motor de busca, feeds em newsletter, artigos informativos e notificações.
 
 ## Integrantes
 
