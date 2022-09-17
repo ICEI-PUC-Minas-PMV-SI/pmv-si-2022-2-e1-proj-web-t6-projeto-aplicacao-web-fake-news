@@ -11,7 +11,7 @@ um motor de busca, feeds em newsletter, artigos informativos e notificações.
 
 ## O que é o Problema Central?
 
-As "Fake News" e a desinformação em nossa sociedade.
+A desinformação em nossa sociedade causada pelas "Fake News".
 
 ## Qual é o objetivo geral da pesquisa?
 
