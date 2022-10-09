@@ -1,10 +1,8 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+O "Template" pode ser encontrado através da plataforma de Design de Interface utilizada para tal projeto, o "Figma".
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+Link para Acesso [Aqui](https://www.figma.com/file/PR7OU2A8kjmmbr4ml8ovVa/Not-so-Fake---Template%2C-Wireframe-e-Fluxo-de-Informa%C3%A7%C3%A3o?node-id=0%3A1)
+
+Obs: É o segundo agrupamento de cima para baixo dos Designs criados, cujos Frames possuem somente o nome de cada página, sem nenhuma descrição adicional em 
+seguida.
