@@ -1,33 +1,27 @@
 
 # Projeto de Interface
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Seguindo o objetivo da Aplicação Web "Not So Fake" funcionar como uma ferramenta aliada ao usuário na batalha contra a desinformação, o projeto de interface 
+buscou seguir a tendência minimalista e de fácil navegação, através de um cabeçalho de guia e Pop-Ups do conteúdo para a navegação interna, junto de 
+redirecionamentos aos sites de notícias externos quando respostas em RSS eram acionadas, para otimizar a navegação externa. Tal tendência simples a 
+navegação, auxilía tanto o usuário mais avançado, quanto o usuário mais leigo em termos de informática, para conseguir a informação confiável na agilidade 
+que precisa no seu dia-a-dia, tal como se informar sobre as "Fake News", gerenciar seu cadastro e sua inscrição no Newsletter da plataforma.
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+O "User Flow" pode ser encontrado através da plataforma de Design de Interface utilizada para tal projeto, o "Figma".
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+Link para Acesso [Aqui](https://www.figma.com/file/PR7OU2A8kjmmbr4ml8ovVa/Not-so-Fake---Template%2C-Wireframe-e-Fluxo-de-Informa%C3%A7%C3%A3o?node-id=0%3A1)
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+Observação: É o terceiro agrupamento de cima para baixo dos Designs criados, cujos Frames contém a definição "Fluxo de Interação" em frente.
 
+Observação 2: O fluxo foi representado através da visualização em Desktop, uma vez que a aplicação terá caráter responsivo. Logo, as interações em resoluções 
+referentes a dispositivos móveis serão as mesmas, mesmo que a organização dos componetes esteja em outro formato.
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Os "Wireframes" podem ser encontrados através da plataforma de Design de Interface utilizada para tal projeto, o "Figma".
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+Link para Acesso [Aqui](https://www.figma.com/file/PR7OU2A8kjmmbr4ml8ovVa/Not-so-Fake---Template%2C-Wireframe-e-Fluxo-de-Informa%C3%A7%C3%A3o?node-id=0%3A1)
+
+Obs: É o primeiro agrupamento de cima para baixo dos Designs criados, cujos Frames contém a definição "Wireframe" em frente.
