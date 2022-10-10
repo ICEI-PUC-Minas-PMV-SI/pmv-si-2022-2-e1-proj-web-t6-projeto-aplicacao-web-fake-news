@@ -24,4 +24,4 @@ Os "Wireframes" podem ser encontrados através da plataforma de Design de Interf
 
 Link para Acesso [Aqui](https://www.figma.com/file/PR7OU2A8kjmmbr4ml8ovVa/Not-so-Fake---Template%2C-Wireframe-e-Fluxo-de-Informa%C3%A7%C3%A3o?node-id=0%3A1)
 
-Obs: É o primeiro agrupamento de cima para baixo dos Designs criados, cujos Frames contém a definição "Wireframe" em frente.
+Observação: É o primeiro agrupamento de cima para baixo dos Designs criados, cujos Frames contém a definição "Wireframe" em frente.
