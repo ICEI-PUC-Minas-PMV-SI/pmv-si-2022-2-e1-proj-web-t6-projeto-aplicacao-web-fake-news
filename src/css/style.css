@@ -1,0 +1,122 @@
+@import url('//fonts.googleapis.com/css?family=Righteous');
+@import url('//fonts.googleapis.com/css?family=Sarala');
+
+@media only screen and (max-width: 768px){
+
+    #nav-header-item a:hover{
+
+        border-bottom: none !important;
+    
+    }
+
+    #nav-item-active{
+
+        border-bottom: none !important;
+    
+    }
+
+    #login a:hover{
+
+        border-bottom: none !important;
+    
+    }
+
+    #usuario a:hover{
+
+        border-bottom: none !important;
+    
+    }
+
+}
+
+body {
+
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+
+}
+
+#navbar {
+
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+
+}
+
+#logo {
+
+    font-family: Righteous;
+    font-size: 30px;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+
+}
+
+#nav-header-item {
+
+    font-family: Sarala;
+    font-size: 15px;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+
+}
+
+#nav-header-item a:hover{
+
+    border-bottom: 2px solid white;
+
+}
+
+#nav-item-active{
+
+	border-bottom: 2px solid white;
+
+}
+
+#login {
+
+    font-family: Sarala;
+    font-size: 15px;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    margin-left: 6px;
+    margin-right: 0.5px;
+
+}
+
+#usuario {
+
+    font-family: Sarala;
+    font-size: 15px;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    margin-left: 6px;
+    margin-right: 0.5px;
+
+}
+
+#usuario a:hover{
+
+    border-bottom: 2px solid white;
+
+}
+
+#login a:hover{
+
+    border-bottom: 2px solid white;
+
+}
+
+#cadastro {
+
+    margin-top: 1px;
+    margin-left: 6px;
+    margin-right: 2px;
+
+}
