@@ -139,7 +139,7 @@ hr.search_line {
     top: 318px;
     border: 0.4px solid #FFF2E7;
 
-    margin-bottom: 77px;
+    margin-bottom: 86px;
 }
 /* Busque por uma notícia! */
 #title .title_search {
@@ -151,4 +151,37 @@ hr.search_line {
     -webkit-text-fill-color: white;
 
     text-shadow: 9px 4px 4px rgba(7, 7, 7, 0.25);
+}
+
+/* barra que pesquisa motor de busca*/
+.search_area {
+    margin-left: 15%;
+    align-items: center;
+
+}
+.input_search {
+    width: 90%;
+    max-width: 750px;
+    min-width: 350px;
+    height: 40px;
+    border: none;
+    background: #FFFFFF;
+    
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.button_search{
+    height: 40px;
+
+    background: linear-gradient(90deg, #FDFBFB 0%, #EBEDEE 100%);
+    border-radius: 10px;
+    border: none;
+}
+.button{
+    display: inline-block;
+    max-width: 100%;
+    padding-top: 15px;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
 }
