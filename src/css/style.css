@@ -3,28 +3,74 @@
 
 @media only screen and (max-width: 768px){
 
-    #nav-header-item a:hover{
+    #nav-header-item a:hover {
 
         border-bottom: none !important;
     
     }
 
-    #nav-item-active{
+    #nav-item-active {
 
         border-bottom: none !important;
     
     }
 
-    #login a:hover{
+    #login a:hover {
 
         border-bottom: none !important;
     
     }
 
-    #usuario a:hover{
+    #usuario a:hover {
 
         border-bottom: none !important;
     
+    }
+
+    #img-home {
+
+        width: 170px;
+        height: 170px;
+
+    }
+
+    #img-col {
+
+        background-color: #D9D9D9;
+        padding: 20px;
+        width: 200px;
+        height: 200px;
+        border-radius: 30px;
+
+    }
+
+    #resp-col-1 {
+
+        width: 100%;
+
+    }
+
+    #resp-col-2 {
+
+        position: relative;
+        left: 0;
+        width: 50%;
+        font-size: 0px;
+
+    }
+
+    #resp-col-3 {
+
+        position: relative;
+        right: 0;
+        width: 50%;
+
+    }
+
+    .resp-desc {
+
+        visibility: hidden;
+
     }
 
 }
@@ -120,3 +166,35 @@ body {
     margin-right: 2px;
 
 }
+
+#section {
+
+    padding-top: 10px;
+    padding-bottom: 10  px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 10px;
+
+
+}
+
+#desc-home {
+    
+    margin: 20px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    font-family: Sarala;
+    font-size: 25px;
+
+}
+
+#desc-card {
+    
+    margin: 20px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    font-family: Sarala;
+    font-size: 22.5px;
+
+}
+
