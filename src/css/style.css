@@ -29,14 +29,20 @@
 
     /* Feed de Notícias */
 
-    #Titulo-Feed-Tela-Pequena{
+    #FeedRssPrincipal-tela-pequena{
         display: block !important;
-        color: white;
-        text-align: center;
-        font-size: 2.5em;
-        text-decoration: underline 5px;
-        margin: 0px;
-        
+    }
+
+    #FeedRssPrincipal{
+        display: none !important;
+    }
+
+    #FeedRssSecundario{
+        margin-top: -48px !important;
+    }
+
+    #wrapper-imagem-500x500{
+        display: none !important;
     }
 
     .imagem-noticia-secundario{
@@ -147,24 +153,79 @@ body {
 /* Feed de Notícias */
 
 #FeedRssPrincipal, #FeedRssSecundario{
-    margin: auto;
+    margin: auto;    
 }
 
-.imagem-noticia-secundario{
+#FeedRssPrincipal{
+    padding: 40px;
+    border-bottom: solid 1px white;
+    margin-bottom: -48px;
+}
+
+.imagem-noticia-primario{
+    max-width: 100%;
+    align-self: center;
+    border-radius: 10px;
+}
+
+#wrapper-imagem-500x500{
+    display: grid;
+    grid-template-columns: 49.5% 49.5%;
+    grid-gap: 1%;  
+    max-width: 1030px;
+}
+
+.wrapped-imagem-500x500{
+    max-width: 500px;
+    margin: auto;   
+}
+
+#wrapper-imagem-250x250{
+    max-width: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: auto auto;
+    grid-gap: 2%;  
+    margin: 0px;
+}
+
+.wrapped-imagem-500x500:hover{
+    transform: scale(1.02);
+}
+
+.wrapped-imagem-250x250:hover{
+    transform: scale(1.05);
+}
+
+#FeedRssPrincipal-tela-pequena{
+    margin: auto;
+    border-bottom: solid 1px white;
+    display: none;
+}
+
+#Titulo-Feed-Tela-Pequena{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: underline 5px;
+    margin-top: -20px;  
+}
+
+.imagem-noticia-secundario, .imagem-noticia-primario-tela-pequena{
     max-width: 350px;
     float: left;
     border-radius: 10px;
-    margin: 20px 10px 30px 0px;
-    
+    margin: 20px 10px 30px 0px;   
 }
 
-.titulo-noticia-secundario{
+.titulo-noticia-secundario, .titulo-noticia-primario-tela-pequena{
     margin: 20px 0px 20px 0px;
     color: white;
     font-size: 2em;
 }
 
-.texto-noticia-secundario{
+.texto-noticia-secundario, .texto-noticia-primario-tela-pequena{
     color: white;
     font-size: 0.8em;
     margin: 20px 0px 20px 0px;
@@ -178,5 +239,3 @@ body {
     text-decoration: underline 1px white;
     transform: scale(1.02);
 }
-
-
