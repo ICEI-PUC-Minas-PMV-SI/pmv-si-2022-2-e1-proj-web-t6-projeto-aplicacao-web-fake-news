@@ -120,3 +120,115 @@ body {
     margin-right: 2px;
 
 }
+
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    max-width: 150rem;
+    margin: 0 auto;
+    padding: 15px;
+    
+  }
+  @media(min-width: 200px) and (max-width:290px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 20px;
+        max-width: 150rem;
+        margin: 0 auto;
+        padding: 15px;
+  }
+}
+  .grid div{
+    background-color: #fff;
+    font-family: Sarala;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 20px;
+    padding-bottom: 50px;
+    box-shadow: 0.2px 0.2px #000;
+    border-radius: 1.5rem;
+  }
+  .texto-grid{
+    font-family: Sarala;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 15px;
+    /**font-weight: bold;**/
+
+  }
+  .imagem-grid{
+    transition: 300ms ease-in-out;
+  }
+  img:hover{
+    transform: translate(2%, 2% ) scale(1.25) rotate(1deg);
+    border: solid rgba(255, 255, 255, 1);
+    box-shadow: 1px 1px 3px #000;
+  }
+  .link-grid{
+    
+    font-weight: bold;
+    font-size: 1.8rem;
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    border-radius: 20px;
+    padding: 5px;
+    color: #ffff;
+    text-decoration: none;
+    
+  }
+  a:hover{
+    color:#B0E0E6;
+  }
+  .imagem-grid{
+    transition: 300ms ease-in-out;
+  }
+  img:hover{
+    transform: scale(1.15);
+    border: solid rgba(255, 255, 255, 1);
+    box-shadow: 1px 1px 3px #000;
+  }
+  .imagem-grid{
+    width: 16rem;
+    height:9rem;
+    border-radius: 5px;
+  }
+  @media(min-width: 200px) and (max-width:290px){
+    .imagem-grid{
+        width: auto;
+        height:9rem;
+        border-radius: 5px;
+}
+  }
+  .grid-noticia{
+    max-width: 150rem;
+    margin: 0 auto;
+    padding: 15px;
+    
+  }
+  .grid-noticia div{
+     background-color: #fff;
+    font-family: Sarala;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 20px;
+    padding-bottom: 50px;
+    box-shadow: 0.2px 0.2px #000;
+    border-radius: 1.5rem;
+  }
+  .texto-grid-noticia{
+    font-family: Sarala;
+    font-size:large;
+    text-align: justify;
+    padding-top: 40px;
+    /**font-weight: bold;**/
+  }
+  .imagem-grid-noticia{
+    transition: 300ms ease-in-out;
+    width: 16rem;
+    height:9rem;
+    border-radius: 5px;
+  }
+  
+
+  
