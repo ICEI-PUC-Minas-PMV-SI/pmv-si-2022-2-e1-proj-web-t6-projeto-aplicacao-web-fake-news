@@ -24,6 +24,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" 
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" 
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" 
+        crossorigin="anonymous"></script>
 
     <!-- Importando o arquivo de estilos CSS -->
     <link rel="stylesheet" href="..\..\css\style.css" />
@@ -83,19 +89,19 @@
 
     <main>
         <!--Pesquisa para o motor de busca-->
-        <div class="container">
-            <div id="title" class="title">
-                <h2 class="title_search">Busque por uma notícia!</h2>
+        <div class="container" id="container-MB">
+            <div id="title-MB">
+                <h2 id="title-MB">Busque por uma notícia!</h2>
             </div>
-            <hr class="search_line">
-            <div class="search">
-                <div class="search_area">
-                    <input id="input_search" class="input_search" type="text" placeholder="Escreva...">
-                    <div class="button">
-                        <button type="button" class="button_search">Pesquisar</button>
-                    </div>
+            <hr id="search_line-MB">
+            <div id="search-MB">
+                <div id="search_area-MB">
+                    <input id="input_search-MB" type="text" placeholder="Escreva...">
                 </div>
-                <div id="result">
+                <div id="button-MB">
+                    <button type="button" class="btn btn-light" id="button_search-MB">Pesquisar</button>
+                </div>
+                <div id="result-MB">
                     <!--Resultado da pesquisa-->
                 </div>
             </div>
