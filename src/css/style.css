@@ -164,29 +164,28 @@ main {
 }
 
 /* barra que pesquisa motor de busca*/
-#search_area-MB {
-    width: 750px;
-    align-items: center;
-    display: flex;
-    align-content: center;
-    
-}
 
 #search-MB {
     width: 90%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: center;
+    align-items: flex-start;
+    
+    align-content: flex-start;
     row-gap: 20px;
     column-gap: 30px;
+
+    padding-left: 10%;
+}
+
+#search_area-MB {
+    width: 750px;
+    align-items: center;
+    align-content: center; 
 }
 
 #input_search-MB {
     width: 100%;
-    max-width: 750px;
-    min-width: 350px;
     height: 40px;
     border: none;
     background: #FFFFFF;
@@ -202,5 +201,6 @@ main {
 #button-MB {
     max-width: 100%;
     align-items: center;
+    align-content: center;
     justify-content: center;
 }
