@@ -1,30 +1,30 @@
 @import url('//fonts.googleapis.com/css?family=Righteous');
 @import url('//fonts.googleapis.com/css?family=Sarala');
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
 
-    #nav-header-item a:hover{
+    #nav-header-item a:hover {
 
         border-bottom: none !important;
-    
+
     }
 
-    #nav-item-active{
+    #nav-item-active {
 
         border-bottom: none !important;
-    
+
     }
 
-    #login a:hover{
+    #login a:hover {
 
         border-bottom: none !important;
-    
+
     }
 
-    #usuario a:hover{
+    #usuario a:hover {
 
         border-bottom: none !important;
-    
+
     }
 
 }
@@ -38,7 +38,7 @@ body {
 main {
     background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
     width: 100%;
-    
+
 }
 
 #navbar {
@@ -71,15 +71,15 @@ main {
 
 }
 
-#nav-header-item a:hover{
+#nav-header-item a:hover {
 
     border-bottom: 2px solid white;
 
 }
 
-#nav-item-active{
+#nav-item-active {
 
-	border-bottom: 2px solid white;
+    border-bottom: 2px solid white;
 
 }
 
@@ -107,17 +107,18 @@ main {
 
 }
 
-#usuario a:hover{
+#usuario a:hover {
 
     border-bottom: 2px solid white;
 
 }
 
-#login a:hover{
+#login a:hover {
 
     border-bottom: 2px solid white;
 
 }
+
 #cadastro {
 
     margin-top: 1px;
@@ -133,7 +134,7 @@ main {
     margin-bottom: 77px;
 }
 
-#container-MB  {
+#container-MB {
     width: auto;
     height: auto;
     flex-direction: row;
@@ -151,6 +152,7 @@ main {
 
     margin-bottom: 86px;
 }
+
 /* Busque por uma notícia! */
 #title-MB {
     font-family: 'Righteous';
@@ -174,7 +176,7 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 20px;
-    column-gap: 30px;
+    column-gap: 10px;
 
     padding-left: 10%;
 }
@@ -182,7 +184,7 @@ main {
 #search_area-MB {
     width: 750px;
     align-items: center;
-    align-content: center; 
+    align-content: center;
     justify-content: center;
 }
 
@@ -191,15 +193,18 @@ main {
     height: 40px;
     border: none;
     background: #FFFFFF;
-    
+
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
+
 #button_search-MB {
     height: 40px;
     border-radius: 10px;
     border: none;
 }
+
 #button-MB {
     max-width: 100%;
+
 }
