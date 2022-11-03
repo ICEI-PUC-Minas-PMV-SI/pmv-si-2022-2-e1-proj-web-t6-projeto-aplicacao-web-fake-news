@@ -170,8 +170,9 @@ main {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    
     align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
     row-gap: 20px;
     column-gap: 30px;
 
@@ -182,6 +183,7 @@ main {
     width: 750px;
     align-items: center;
     align-content: center; 
+    justify-content: center;
 }
 
 #input_search-MB {
@@ -200,7 +202,4 @@ main {
 }
 #button-MB {
     max-width: 100%;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
 }
