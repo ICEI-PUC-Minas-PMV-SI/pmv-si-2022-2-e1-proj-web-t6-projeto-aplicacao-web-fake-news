@@ -8,7 +8,7 @@
     <head>
 
         <!-- Tag "meta" indicando qual o conjunto de caractéres deve ser levado em conta no "encoding" da página -->
-        <meta charset="utf-8-sig">
+        <meta charset="UTF-8">
 
         <!-- Tag "meta" relacionada ao layout se comportar de forma responsiva seguindo os padrões do Bootstrap -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -88,6 +88,67 @@
             </nav>
             
         </header>
+
+        <!-- Container -->
+        <br>
+        <h2 style="font-family: Sarala; color:white;" align="center">Página de Controle do Usuário</h2>
+        <div style="font-family: Sarala; align-items: center; justify-content: center; flex-wrap: wrap; position: relative; display: flex; padding: 1%;" class="container">
+        
+            <!-- Sub container 1 -->
+            <div align="center" style="margin-right: 10%;" class="col-sm-3">
+                <h5 style="color:white;" align="left">Configurações do usuário:</h5>
+                
+                <form action="">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Nome">
+                        <button class="btn btn-primary" type="submit">Salvar</button>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Email">
+                        <button class="btn btn-primary" type="submit">Salvar</button>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" placeholder="Senha">
+                        <button class="btn btn-primary" type="submit">Salvar</button>
+                    </div>
+                </form>
+            
+            </div>        
+            
+            <!-- Sub container 2 -->
+            <div align="center" class="col-sm-3">
+                <h5 style="color:white; margin-top: 10%;" align="left">Configurações da newslatter:</h5>
+                
+                <div>
+                    <form action="">
+                        <div class="form-floating">
+                            <select class="form-select" id="sel1" name="newslatter" >
+                            <option>Não receber</option>
+                            <option>Diário</option>
+                            <option>Semanal</option>
+                            <option>Mensal</option>
+                            </select>
+                            <label for="sel1" class="form-label">Frequência de envios:</label>
+                        </div>
+                        <button style="margin-top: 3%;" type="submit" class="btn btn-primary">Salvar</button>
+                    </form>
+
+                </div>
+
+                <h6 style="color:white; margin-top: 10%;" align="center">Receber manualmente:</h6>
+                <form action="">
+                    <div class="btn-group">
+                        <button type="submit" class="btn btn-primary">Diário</button>
+                        <button type="submit" class="btn btn-primary">Semanal</button>
+                        <button type="submit" class="btn btn-primary">Mensal</button>
+                    </div>
+                </form>
+
+            </div>
+        
+        </div>
 
     </body>
     
