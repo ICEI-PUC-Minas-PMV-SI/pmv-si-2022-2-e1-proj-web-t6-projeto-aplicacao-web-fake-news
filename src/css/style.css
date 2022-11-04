@@ -120,7 +120,7 @@ body {
 
 }
 /* Style do Grid */
-.grid{
+div.grid-blog{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
@@ -131,7 +131,7 @@ body {
 
 /* Style do Grid dispositivos com mais de 200px e menos de 290px*/
 @media(min-width: 200px) and (max-width:290px){
-  .grid{
+  div.grid-blog{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-gap: 20px;
@@ -142,7 +142,7 @@ body {
 }
 
 /* Style do artigos comuns */
-.grid article{
+article{
   background-color: #fff;
   font-family: Sarala;
   text-align: center;
@@ -168,7 +168,7 @@ article.blog-principal{
 }
 
   /* Style texto de descrição - posts do Blog */
-.texto-grid{
+.texto-grid-blog{
   font-family: Sarala;
   font-size: 1.3rem;
   text-align: center;
@@ -182,7 +182,7 @@ article.blog-principal{
 }
 
 /* Características do link */
-.link-grid{
+.link-grid-blog{
   font-weight: bold;
   font-size: 1.8rem;
   background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
@@ -196,22 +196,25 @@ article.blog-principal{
   background-color: black;
 }
 
-/*button{
-  position: absolute;
-  background-color: green;
-  width: 40%;
-  left: auto;
-  right: 28%;
-  
-}*/
-
 /* Mudança de cor ao passar o cursor do mouse por cima do link*/
-a:hover{
+a.link-grid-blog:hover{
   color:#B0E0E6;
 }
 
-/* Mudança da imagem ao passar o cursor do mouse por cima do link*/
+/* Mudança da imagem ao passar o cursor do mouse por cima do link
 img:hover{
+  transform: scale(1.15);
+  border: solid rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 3px #000;
+  transition: 300ms ease-in-out;
+}*/
+.imagem-blog-principal:hover{
+  transform: scale(1.15);
+  border: solid rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 3px #000;
+  transition: 300ms ease-in-out;
+}
+.imagem-grid-blog:hover{
   transform: scale(1.15);
   border: solid rgba(255, 255, 255, 1);
   box-shadow: 1px 1px 3px #000;
@@ -219,7 +222,7 @@ img:hover{
 }
 
 /*Styles dispositivos com mais de 600px*/
-.imagem-grid{
+.imagem-grid-blog{
   width: 16rem;
   height:9rem;
   border-radius: 5px;
@@ -238,7 +241,7 @@ img:hover{
     height: 9rem;
     border-radius: 5px;
   }
-  .imagem-grid{
+  .imagem-grid-blog{
     width: 16rem;
     height: 9rem;
     border-radius: 5px;
@@ -252,32 +255,31 @@ img:hover{
     height: 7rem;
     border-radius: 5px;
   }
-  .imagem-grid{
+  .imagem-grid-blog{
     width: 14rem;
     height: 7rem;
     border-radius: 5px;
   }
 }
 
-
  /*STYLES AO CLICAR EM UMA PSOTAGEM DO BLOG*/
- /*Imagem postagem do blog*/
+ /*Imagem postagem do blog
 .imagem-grid-noticia{
   transition: 300ms ease-in-out;
   width: 16rem;
   height:9rem;
 border-radius: 5px;
-}
+}*/
 
 /*Style grid*/
-.grid-noticia{
+.blog-noticia{
   max-width: 150rem;
   margin: 0 auto;
   padding: 15px;  
 }
 
 /*Style grid*/
-.grid-noticia div{
+.blog-noticia div{
    background-color: #fff;
   font-family: Sarala;
   text-align: center;
@@ -295,15 +297,17 @@ border-radius: 5px;
   text-align: justify;
   padding-top: 40px;
 }
-
+/*Style titulo blog*/
 #titulo-blog-noticia{
   font-family: Sarala;
   font-weight: bold;
 }
+/*Style subtitulo blog*/
 #subtitulo-blog{
   font-family: Sarala;
   font-weight: bold;
 }
+/*Style rodapé blog*/
 .rodape-blog{
   max-width: 150rem;
   margin: 15px;
@@ -315,11 +319,13 @@ border-radius: 5px;
   box-shadow: 0.2px 0.2px #000;
   border-radius: 1.5rem;
 }
+/*Style título rodapé blog*/
 #titulo-fonte{
   text-align: center;
   font-family: Sarala;
   font-weight: bold;
 }
+/*Style listas blog*/
 #lista-blog{
   text-align: left;
   font-family: Sarala;
