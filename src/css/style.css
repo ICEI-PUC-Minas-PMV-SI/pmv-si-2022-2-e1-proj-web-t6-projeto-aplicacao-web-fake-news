@@ -307,6 +307,70 @@ main {
     margin-right: 2px;
 
 }
+
+.boxes {
+    display: flex;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.box1 {
+    background-image: linear-gradient(to left, #659baf 15%, #7f4cb1 100%);
+    width: 400px;
+    height: 280px;
+    position: absolute;
+    margin-top: 5%;
+    padding-left: 3%;
+    padding-right: 1%;
+    padding-top: 3%;
+    align-items: left;
+    border: none;
+}
+
+.box2 {
+    background-image: linear-gradient(to right, #B6DCDA 1%, #98cac9 1%, #EBEDEE 100%);
+    width: 460px;
+    height: 450px;
+    margin-left: 30%;
+    padding-left: 8%;
+    padding-right: 2%;
+    padding-top: 2%;
+    border: none;
+}
+
+.barra {
+    width: 10px;
+    height: 120px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: -4%;
+}
+
+.btn-login {
+    font-family:Righteous;
+    border: none;
+    font-size: 22px;
+    color: white;
+    background-image: linear-gradient(to right, #289694 10%, #592291 70%);
+}
+
+.btn-saiba {
+    font-family:Righteous;
+    margin-top: 10%;
+    background: transparent;
+    border: white solid 2px;
+    color: white;
+}
+
+.box-aceite{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background: transparent;
+    border: black solid 1px;
+    color: white;
+
 /* Style do Grid */
 div.grid-blog{
   display: grid;
