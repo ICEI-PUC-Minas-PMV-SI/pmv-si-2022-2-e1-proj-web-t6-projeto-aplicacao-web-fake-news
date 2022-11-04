@@ -296,3 +296,32 @@ border-radius: 5px;
   padding-top: 40px;
 }
 
+#titulo-blog-noticia{
+  font-family: Sarala;
+  font-weight: bold;
+}
+#subtitulo-blog{
+  font-family: Sarala;
+  font-weight: bold;
+}
+.rodape-blog{
+  max-width: 150rem;
+  margin: 15px;
+  background-color: #fff;
+  font-family: Sarala;
+  font-size: 1.6rem;
+  padding: 20px;
+  padding-bottom: 50px;
+  box-shadow: 0.2px 0.2px #000;
+  border-radius: 1.5rem;
+}
+#titulo-fonte{
+  text-align: center;
+  font-family: Sarala;
+  font-weight: bold;
+}
+#lista-blog{
+  text-align: left;
+  font-family: Sarala;
+  font-size: large;
+}
