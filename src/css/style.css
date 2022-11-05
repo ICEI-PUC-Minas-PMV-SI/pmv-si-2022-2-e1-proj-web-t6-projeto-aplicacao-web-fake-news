@@ -310,44 +310,11 @@ main {
 }
 
 .boxes {
-    display: flex;
-    margin-left: 20%;
+    position: relative;
+    display: grid;
     margin-right: auto;
     margin-top: 10%;
 }
-
-.box1 {
-    background-image: linear-gradient(to left, #659baf 15%, #7f4cb1 100%);
-    width: 400px;
-    height: 280px;
-    position: absolute;
-    margin-top: 5%;
-    padding-left: 3%;
-    padding-right: 1%;
-    padding-top: 3%;
-    align-items: left;
-    border: none;
-}
-
-.box2 {
-    background-image: linear-gradient(to right, #B6DCDA 1%, #98cac9 1%, #EBEDEE 100%);
-    width: 460px;
-    height: 450px;
-    margin-left: 30%;
-    padding-left: 8%;
-    padding-right: 2%;
-    padding-top: 2%;
-    border: none;
-}
-
-.barra {
-    width: 10px;
-    height: 120px;
-    background-color: aliceblue;
-    position: absolute;
-    margin-left: -4%;
-}
-
 .btn-login {
     font-family:Righteous;
     border: none;
@@ -357,6 +324,7 @@ main {
 }
 
 .btn-saiba {
+    width: 128px;
     font-family:Righteous;
     margin-top: 10%;
     background: transparent;
@@ -372,6 +340,44 @@ main {
     border: black solid 1px;
     color: white;
 }
+
+.box1 {
+    background-image: linear-gradient(to left, #659baf 15%, #7f4cb1 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: 1/2;
+
+    width: 400px;
+    height: 280px;
+    margin-top: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.box2 {
+    background-image: linear-gradient(to right, #B6DCDA 1%, #98cac9 1%, #EBEDEE 100%);
+    display: flex;
+    flex-direction: column;
+    grid-area: 1/2;
+
+    width: 460px;
+    height: 450px;
+    margin-left: 20rem;
+    padding-left: 9%;
+    padding-right: 3.5%;
+    padding-top: 2%;
+}
+
+.barra {
+    width: 10px;
+    height: 120px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: -2%;
+    margin-top: -3%;
+}
+
 /* Style do Grid */
 div.grid-blog{
   display: grid;
