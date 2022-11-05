@@ -218,6 +218,7 @@ body {
 }
 
 main {
+
     background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
     width: 100%;
 
@@ -370,7 +371,7 @@ main {
     background: transparent;
     border: black solid 1px;
     color: white;
-
+}
 /* Style do Grid */
 div.grid-blog{
   display: grid;

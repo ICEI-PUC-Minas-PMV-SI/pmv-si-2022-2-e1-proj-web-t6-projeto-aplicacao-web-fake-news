@@ -29,65 +29,75 @@
 
 <body>
 
-    <!-- Estruturando o Cabeçalho -->
-    <header>
+  <!-- Estruturando o Cabeçalho -->
+  <header>
 
-        <!-- Corpo da Navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar" style="border-bottom: 0.5px solid white">
+    <!-- Corpo da Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar" style="border-bottom: 0.5px solid white">
+      
+      <!-- Logo da Aplicação Web -->
+      <a class="navbar-brand" href="../../logged_out/out_Home.html" id="logo">Not so Fake</a>
 
-            <!-- Logo da Aplicação Web -->
-            <a class="navbar-brand" href="../../logged_in/in_Home.html" id="logo">Not so Fake</a>
+      <!-- Lista Suspensa em caso de redefoutição da tela do Navegador-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        
+        <span class="navbar-toggler-icon"></span>
+      
+      </button>
 
-            <!-- Lista Suspensa em caso de redefinição da tela do Navegador-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- Itens da Navbar -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav ms-auto">
+          
+          <!-- Classe "active" e ID "nav-item-active" devem sempre estar presentes na págouta qual se está da aplicação -->
+          <li class="nav-item" id="nav-header-item">
+            
+            <a class="nav-link" href="../../logged_out/out_Home.html">Home</a>
+          
+          </li>
 
-                <span class="navbar-toggler-icon"></span>
+          <li class="nav-item" id="nav-header-item">
+            
+            <a class="nav-link" href="../../logged_out/out_FeedRss.html">Feed de Notícias</a>
+          
+          </li>
 
-            </button>
+          <li class="nav-item" id="nav-header-item">
+            
+            <a class="nav-link" href="../../logged_out/out_MotorDeBusca.html">Pesquisa</a>
+          
+          </li>
 
-            <!-- Itens da Navbar -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <li class="nav-item" id="nav-header-item">
+            
+            <a class="nav-link active" id="nav-item-active" href="../../logged_out/out_BlogFakeNews.html">O que são "FakeNews"?</a>
+          
+          </li>
 
-                <ul class="navbar-nav ms-auto">
+          <li class="nav-item" id="logout">
 
-                    <!-- Classe "active" e ID "nav-item-active" devem sempre estar presentes na página qual se está da aplicação -->
-                    <li class="nav-item" id="nav-header-item">
+            <a class="nav-link" href="../logged_out/out_Logout.html">Logout</a>
 
-                        <a class="nav-link" href="../../logged_in/in_Home.html">Home</a>
+          </li>
+        
+          <li class="nav-item" id="cadastro">
 
-                    </li>
+            <a class="nav-link" href="../logged_out/out_Cadastro.html">
+                
+              <img src="..\..\..\img\IconeCadastro.png"  width="20" height="20">
+            
+            </a>
 
-                    <li class="nav-item" id="nav-header-item">
-
-                        <a class="nav-link" href="../../logged_in/in_FeedRss.html">Feed de Notícias</a>
-
-                    </li>
-
-                    <li class="nav-item" id="nav-header-item">
-
-                        <a class="nav-link" href="../../logged_in/in_MotorDeBusca.html">Pesquisa</a>
-
-                    </li>
-
-                    <li class="nav-item" id="nav-header-item">
-
-                        <a class="nav-link active" id="nav-item-active" href="../../logged_in/in_BlogFakeNews.html">O que são "Fake News"?</a>
-
-                    </li>
-
-                    <li class="nav-item" id="usuario">
-
-                        <a class="nav-link" href="../../logged_in/in_ControleUsuario.html">Usuário</a>
-
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </nav>
-
-    </header>
+          </li>
+        
+        </ul>
+      
+      </div>
+    
+    </nav>
+  
+  </header>
 
     <div class="blog-noticia">
 

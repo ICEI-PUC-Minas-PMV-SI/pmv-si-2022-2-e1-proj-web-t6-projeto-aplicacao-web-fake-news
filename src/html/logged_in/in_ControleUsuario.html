@@ -33,10 +33,10 @@
         <header>
 
             <!-- Corpo da Navbar -->
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar"style="border-bottom: 0.5px solid white">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar" style="border-bottom: 0.5px solid white">
 
                 <!-- Logo da Aplicação Web -->
-                <a class="navbar-brand" href="home.html" id="logo">Not so Fake</a>
+                <a class="navbar-brand" href="../logged_in/in_Home.html" id="logo">Not so Fake</a>
 
                 <!-- Lista Suspensa em caso de redefinição da tela do Navegador-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -91,59 +91,88 @@
 
         <!-- Container -->
         <br>
+
         <h2 style="font-family: Sarala; color:white;" align="center">Página de Controle do Usuário</h2>
+        
         <div style="font-family: Sarala; align-items: center; justify-content: center; flex-wrap: wrap; position: relative; display: flex; padding: 1%;" class="container">
         
             <!-- Sub container 1 -->
             <div align="center" style="margin-right: 10%;" class="col-sm-3">
+                
                 <h5 style="color:white;" align="left">Configurações do usuário:</h5>
                 
                 <form action="">
+
                     <div class="input-group mb-3">
+
                         <input type="text" class="form-control" placeholder="Nome">
+
                         <button class="btn btn-primary" type="submit">Salvar</button>
+                    
                     </div>
 
                     <div class="input-group mb-3">
+
                         <input type="email" class="form-control" placeholder="Email">
+
                         <button class="btn btn-primary" type="submit">Salvar</button>
+
                     </div>
 
                     <div class="input-group mb-3">
+
                         <input type="password" class="form-control" placeholder="Senha">
+
                         <button class="btn btn-primary" type="submit">Salvar</button>
+
                     </div>
+
                 </form>
             
             </div>        
             
             <!-- Sub container 2 -->
-            <div align="center" class="col-sm-3">
-                <h5 style="color:white; margin-top: 10%;" align="left">Configurações da newslatter:</h5>
+            <div class="col-sm-3">
+
+                <h5 style="color:white; margin-top: 10%;" align="left">Configurações da newsletter:</h5>
                 
                 <div>
+
                     <form action="">
+
                         <div class="form-floating">
-                            <select class="form-select" id="sel1" name="newslatter" >
-                            <option>Não receber</option>
-                            <option>Diário</option>
-                            <option>Semanal</option>
-                            <option>Mensal</option>
+
+                            <select class="form-select" id="sel1" name="newsletter" >
+                                
+                                <option>Não receber</option>
+                                <option>Diário</option>
+                                <option>Semanal</option>
+                                <option>Mensal</option>
+
                             </select>
+
                             <label for="sel1" class="form-label">Frequência de envios:</label>
+
                         </div>
+
                         <button style="margin-top: 3%;" type="submit" class="btn btn-primary">Salvar</button>
+                    
                     </form>
 
                 </div>
 
                 <h6 style="color:white; margin-top: 10%;" align="center">Receber manualmente:</h6>
+                
                 <form action="">
+
                     <div class="btn-group">
+
                         <button type="submit" class="btn btn-primary">Diário</button>
                         <button type="submit" class="btn btn-primary">Semanal</button>
                         <button type="submit" class="btn btn-primary">Mensal</button>
+
                     </div>
+
                 </form>
 
             </div>
@@ -152,5 +181,4 @@
 
     </body>
     
-
 </html>
