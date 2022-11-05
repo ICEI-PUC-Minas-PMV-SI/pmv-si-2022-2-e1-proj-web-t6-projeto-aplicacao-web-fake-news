@@ -309,6 +309,91 @@ main {
 
 }
 
+#signup-form {
+
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    height: 75%;
+    width: 80%;
+
+}
+
+#form-entry {
+
+    position: absolute;
+    font-size: 2vh;
+    height: 16.5% !important;
+    width: 100% !important;
+
+}
+
+#form-entry-cute {
+
+    background-color: white;
+    border-radius: 5px;
+    font-family: Sarala;
+    font-size: 25px;
+
+
+}
+
+#info-not-so-fake {
+
+    position: absolute;
+    top: 33%;
+    left: 20%;
+    height: 33%;
+    width: 28%;
+    background-image: linear-gradient(to left, #3ab5b0 0%, #3d99be 31%, #56317a 100%);;
+
+}
+
+#signup-not-so-fake {
+
+    position: absolute;
+    top: 27%;
+    left: 45%;
+    height: 45%;
+    width: 30%;
+    background-image: linear-gradient(to right, #B6DCDA 1%, #98cac9 1%, #EBEDEE 100%);;
+
+}
+
+#info-not-so-fake-title {
+
+    font-family: Righteous;
+    font-size: 5vh;
+    color: white;
+    position: absolute;
+    border-left: 10px;
+    top: 15%;
+    left: 10%;
+
+}
+
+#info-not-so-fake-subtitle {
+
+    font-family: Righteous;
+    font-size: 2.5vh;
+    color: white;
+    position: absolute;
+    top: 36%;
+    left: 10%;
+
+}
+
+#login-signup {
+
+    position: absolute;
+    background-color: white;
+    width: 1vw;
+    height: 14vh;
+    top: 16%;
+    left: 3.5%;
+
+}
+
 .boxes {
     position: relative;
     display: grid;
@@ -316,25 +401,34 @@ main {
     margin-top: 10%;
 }
 .btn-login {
-    font-family:Righteous;
-    border: none;
-    font-size: 22px;
+
+    position: absolute;
+    font-family: Righteous;
+    font-size: 3vh;
+    width: 100%;
     color: white;
     background-image: linear-gradient(to right, #289694 10%, #592291 70%);
 }
 
 .btn-saiba {
-    width: 128px;
-    font-family:Righteous;
-    margin-top: 10%;
+
+    font-family: Righteous;
+    font-size: 1.8vh;
+    position: absolute;
+    width: 35%;
+    height: 15%;
+    top: 70%;
+    left: 10%;
+    
     background: transparent;
     border: white solid 2px;
     color: white;
 }
 
 .box-aceite{
-    width: 15px;
-    height: 15px;
+
+    width: 5%;
+    height: 5%;
     position: absolute;
     background: transparent;
     border: black solid 1px;
@@ -740,7 +834,7 @@ a.link-grid-blog:hover{
 #section {
 
     padding-top: 10px;
-    padding-bottom: 10  px;
+    padding-bottom: 10px;
     padding-left: 12px;
     padding-right: 12px;
     margin-top: 10px;
@@ -888,4 +982,30 @@ a.link-grid-blog:hover{
 .text-result-MB{
     color: white;
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+@media only screen and (max-width: 1245px) {
+
+    #info-not-so-fake {
+
+        position: absolute;
+        top: 0%;
+        left: 10%;
+        height: 30%;
+        width: 80%;
+        background-image: linear-gradient(to left, #3ab5b0 0%, #3d99be 31%, #56317a 100%);;
+    
+    }
+
+    #signup-not-so-fake {
+
+        position: absolute;
+        top: 35%;
+        left: 10%;
+        height: 60%;
+        width: 80%;
+        background-image: linear-gradient(to right, #B6DCDA 1%, #98cac9 1%, #EBEDEE 100%);;
+    
+    }
+    
 }
