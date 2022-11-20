@@ -62,3 +62,23 @@ dinamicidade de conferência e criação de dados será feita na etapa posterior
 <img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/202919172-a3b970c0-6354-48c9-8a76-cd391918c552.png">
 
 <img width="926" alt="image" src="https://user-images.githubusercontent.com/110254863/202919198-2f9d8f13-6d5a-4c11-b80c-49e4bf850eb1.png">
+
+# Programação de Funcionalidades - JavaScript.
+
+Uma vez estando prontas as estruturas e design da aplicação nos documentos HTML e CSS, a parte dinâmica teve início, realizando as etapas de desenvolvimento 
+relacionadas ao JavaScript. Após analisar o contexto do projeto, foi percebido que a dinamicidade através do JavaScript se daria em 3 frentes principais de 
+interação, o **Motor de Busca**, a **Base de Acesso, Edição e Cadastro de Usuários**, o **Newsletter** e o **Feed de Notícias em RSS**.
+
+O código fonte que exemplifica como a programação foi feita consta na ["src"](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t6-projeto-aplicacao-web-fake-news/tree/main/src) do projeto.
+
+- Quanto ao Motor de Busca, foi utilizado pelo grupo a API do Google Cloud **"Custom Search Engine API"**, cuja configuração foi feita para que os resultados 
+pesquisados pudessem ser apenas de 10 sites de referência jornalística nacional, buscando resultados confiáveis que não fossem Fake News referentes à 
+qualquer tema de interesse do usuário.
+
+Sites utilizados definidos no Painel de Controle da API do Google Cloud:
+
+<img width="479" alt="image" src="https://user-images.githubusercontent.com/110254863/202927131-545afc0e-7371-41a0-9575-8e3f4e4f130b.png">
+
+Exemplo do motor de busca em funcionamento:
+
+<img width="913" alt="image" src="https://user-images.githubusercontent.com/110254863/202927244-dedafae8-3172-416c-b53c-940553c3ca08.png">
