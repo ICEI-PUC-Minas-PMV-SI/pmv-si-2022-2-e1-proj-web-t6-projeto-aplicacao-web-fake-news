@@ -24,7 +24,9 @@ A página de "Feed de Notícias" tem como objetivo receber atualizações dinâm
 informações do corpo da página. Como o preenchimento dinâmico será realizado através do JavaScript, a estrutura foi preenchida com valores Lorem Ipsum no 
 HTML estático.
 
-<img width="911" alt="image" src="https://user-images.githubusercontent.com/110254863/202918107-cd76ceed-7612-4823-850f-4871badf2eef.png">
+<img width="911" alt="image" src="https://user-images.githubusercontent.com/103666432/205665322-c5ff41be-09e1-483d-b879-045dfd3195de.png">
+
+
 
 ## in_MotorDeBusca.html e out_MotorDeBusca.html
 
