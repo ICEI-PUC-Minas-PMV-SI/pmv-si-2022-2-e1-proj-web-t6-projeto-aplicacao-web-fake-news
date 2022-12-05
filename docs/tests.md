@@ -20,6 +20,37 @@ Comente sobre as ferramentas de testes utilizadas.
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
+# TESTE - HOME
+## Testes a serem feitos:
+
+1. Responsividade da home do site.
+2. Interação de ícones redirecionando para páginas específicas.
+
+Obs: Todos os testes devem ser realizados nos seguintes devices: Desktop e Mobile
+
+## Realizção dos testes:
+### Teste 1 - Responsividade:
+
+https://user-images.githubusercontent.com/110254863/205761200-d05d71d3-5e2f-452f-bab5-ccd9cee85455.mp4
+
+- Resultado observado: Foi evidenciado que a página Home está responsiva, ou seja, a aplicação se adequa a tela do usuário de modo a não 
+comprometer a integridade das informações e do layout.
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
+### Teste 3 - Interação com os Ícones:
+
+https://user-images.githubusercontent.com/110254863/205763268-00f5ee86-b603-4bfe-9e78-29defc54eff8.mp4
+
+- Resultado observado: Foi evidenciado que os redirecionamentos das páginas, conforme os ícones selecionados, estavam ocorrendo corretamente, provando de tal 
+forma uma navegação fluída e funcional.
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
 # TESTE - BLOG
 ## Testes a serem feitos:
 
@@ -35,8 +66,8 @@ Obs: Todos os testes devem ser realizados nos seguintes devices: Desktop e Mobil
 
 https://user-images.githubusercontent.com/103666432/205692410-26078920-b49d-4826-bcb7-844622ac1874.mp4
 
-- Resultado observado: Foi evidenciado que a página inicial do Blog está responsiva, ou seja, a aplicação se adequa a tela do usuário de modo a não comprometer 
-a integridade das informações e do layout.
+- Resultado observado: Foi evidenciado que a página inicial do Blog está responsiva, ou seja, a aplicação se adequa a tela do usuário de modo a não 
+comprometer a integridade das informações e do layout.
 
 **Situação final:**
 - [x] Aprovado
@@ -45,7 +76,6 @@ a integridade das informações e do layout.
 ### Teste 2 - Responsividade: 
 
 https://user-images.githubusercontent.com/103666432/205693719-02344410-3e64-4950-b28b-4cd5ff5b9588.mp4
-
 
 - Resultado observado: Foi evidenciado que a página referente ao Blog em si está responsiva, ou seja, a aplicação se adequa a tela do usuário de modo a não comprometer a integridade das informações e do layout.
 
