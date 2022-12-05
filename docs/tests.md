@@ -20,6 +20,59 @@ Comente sobre as ferramentas de testes utilizadas.
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
+# TESTE - BLOG
+## Testes a serem feitos:
+
+1. Responsividade tela incial
+2. Responsividade tela blog
+3. Clicar no botão **"SAIBA MAIS"** e ser direcionado ao blog.
+4. No blog, na seção **"Fonte das Informações"** clicar em uma fonte e ser direcionado para a mesma.
+
+Obs: Todos os testes devem ser realizados nos seguintes devices: Desktop e Mobile
+
+## Realização dos testes
+### Teste 1 - Responsividade:
+
+https://user-images.githubusercontent.com/103666432/205692410-26078920-b49d-4826-bcb7-844622ac1874.mp4
+
+- Resultado observado: Foi evidenciado que a página inicial do Blog está responsiva, ou seja, a aplicação se adequa a tela do usuário de modo a não comprometer 
+a integridade das informações e do layout.
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
+### Teste 2 - Responsividade: 
+
+https://user-images.githubusercontent.com/103666432/205693719-02344410-3e64-4950-b28b-4cd5ff5b9588.mp4
+
+
+- Resultado observado: Foi evidenciado que a página referente ao Blog em si está responsiva, ou seja, a aplicação se adequa a tela do usuário de modo a não comprometer a integridade das informações e do layout.
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
+### Teste 3 - Clique no botão "SAIBA MAIS":
+
+https://user-images.githubusercontent.com/103666432/205694317-000bba79-cbc9-4c4c-a5ca-91ee25ed3eb2.mp4
+
+- Resultado observado: Ao clicar no botão **"SAIBA MAIS"** o usuário é redirecionado a página do blog em questão, o efeito é o mesmo independente do tipo de device utilizado (desktop ou mobile).
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
+### Teste 4 - Clique na referência das informações:
+
+https://user-images.githubusercontent.com/103666432/205694990-3dfe6700-b812-414c-9df2-a1d2a9e552e6.mp4
+
+- Resultado observado: Ao clicar no link referente a fonte das informações o usuário é redirecionado ao site que foi utilziado como fonte no blog, o efeito é o mesmo independente do tipo de device utilizado (desktop ou mobile).
+ 
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
