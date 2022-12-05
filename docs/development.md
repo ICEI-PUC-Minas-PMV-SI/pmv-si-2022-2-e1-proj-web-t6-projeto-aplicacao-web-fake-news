@@ -24,7 +24,7 @@ A página de "Feed de Notícias" tem como objetivo receber atualizações dinâm
 informações do corpo da página. Como o preenchimento dinâmico será realizado através do JavaScript, a estrutura foi preenchida com valores Lorem Ipsum no 
 HTML estático.
 
-<img width="911" alt="image" src="https://user-images.githubusercontent.com/103666432/205665322-c5ff41be-09e1-483d-b879-045dfd3195de.png">
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/103666432/205665322-c5ff41be-09e1-483d-b879-045dfd3195de.png">
 
 
 
@@ -33,7 +33,7 @@ HTML estático.
 A página de "Pesquisa" tem como objetivo servir como motor de busca em sites de notícia verificados determinados pelo grupo e retornar uma lista de 
 resultados. Como o preenchimento dinâmico será realizado através do JavaScript, a estrutura foi preenchida com valores Lorem Ipsum no HTML estático.
 
-<img width="910" alt="image" src="https://user-images.githubusercontent.com/110254863/202918353-638f7317-530a-4acc-bb75-f89e5b1988f8.png">
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/202918353-638f7317-530a-4acc-bb75-f89e5b1988f8.png">
 
 ## in_BlogFakeNews.html, out_BlogFakeNews.html e noticiaXX.html
 
@@ -42,9 +42,9 @@ FakeNews na sociedade e, seu impacto como um todo, contendo curiosidades, inform
 estrutura de usuário logado ou deslogado, que ao acessar algum tópico do blog, redireciona para um novo documento HTML (**noticiaXX**) com as informações 
 referentes ao conteúdo do Blog. Tal página se baseará totalmente no HTML e CSS estáticos, sem dinamicidades, portanto já está funcionando.
 
-<img width="924" alt="image" src="https://user-images.githubusercontent.com/110254863/202918715-e6eca139-939a-40a3-be52-6e8521fbf41e.png">
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/202918715-e6eca139-939a-40a3-be52-6e8521fbf41e.png">
 
-<img width="911" alt="image" src="https://user-images.githubusercontent.com/110254863/202918742-c7eb4b02-d986-4036-9258-0d90d7848654.png">
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/202918742-c7eb4b02-d986-4036-9258-0d90d7848654.png">
 
 ## in_ControleUsuario.html
 
@@ -52,7 +52,7 @@ A página de "Usuário" tem como objetivo realizar a administração do cadastro
 botões e formulários em HTML e CSS que possibilitarão futuramente a atualização de preferências no cadastro do usuário contido em arquivo ".json". Atualmente 
 a estrutura da página sómente é visual devido ser uma entrega em HTML e CSS mas, o seu objetivo será atingido posteriormente através de códigos JavaScript.
 
-<img width="922" alt="image" src="https://user-images.githubusercontent.com/110254863/202918958-6fdd5eeb-7e93-40cf-9875-58985acd7056.png">
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/202918958-6fdd5eeb-7e93-40cf-9875-58985acd7056.png">
 
 ## out_Cadastro.html e out_Login.html
 
@@ -63,13 +63,13 @@ dinamicidade de conferência e criação de dados será feita na etapa posterior
 
 <img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/202919172-a3b970c0-6354-48c9-8a76-cd391918c552.png">
 
-<img width="926" alt="image" src="https://user-images.githubusercontent.com/110254863/202919198-2f9d8f13-6d5a-4c11-b80c-49e4bf850eb1.png">
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/202919198-2f9d8f13-6d5a-4c11-b80c-49e4bf850eb1.png">
 
 # Programação de Funcionalidades - JavaScript.
 
 Uma vez estando prontas as estruturas e design da aplicação nos documentos HTML e CSS, a parte dinâmica teve início, realizando as etapas de desenvolvimento 
 relacionadas ao JavaScript. Após analisar o contexto do projeto, foi percebido que a dinamicidade através do JavaScript se daria em 3 frentes principais de 
-interação, o **Motor de Busca**, a **Base de Acesso, Edição e Cadastro de Usuários**, o **Newsletter** e o **Feed de Notícias em RSS**.
+interação, o **Motor de Busca**, a **Base de Acesso, Edição e Cadastro de Usuários** e o **Feed de Notícias em RSS**.
 
 O código fonte que exemplifica como a programação foi feita consta na ["src"](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t6-projeto-aplicacao-web-fake-news/tree/main/src) do projeto.
 
@@ -83,4 +83,35 @@ Sites utilizados definidos no Painel de Controle da API do Google Cloud:
 
 Exemplo do motor de busca em funcionamento:
 
-<img width="913" alt="image" src="https://user-images.githubusercontent.com/110254863/202927244-dedafae8-3172-416c-b53c-940553c3ca08.png">
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/202927244-dedafae8-3172-416c-b53c-940553c3ca08.png">
+
+- No Feed de notícias, utilizamos o RSS (Really Simple Syndication) que é um formato de distribuição de informações em tempo real pela internet, ou seja, o usuário tem acesso a várias notícias de diferentes fontes (fontes pré-estabelecidas) em um mesmo ambiente de maneira automática. O arquivo RSS é recebido no formato XML, que se caracteriza por ser uma linguagem de marcação com regras específicas de modo que ele seja facilmente lido por humanos e por máquinas. No Feed utilizamos três fontes de notícias e, portanto, três arquivos RSS, são eles: El pais, G1 e R7.
+
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/103666432/205677271-a7069989-0b66-4889-b1ff-16cbe18e67a1.png">
+
+No arquivo Javascript, seguimos os seguintes passos:  
+
+1 – Foi criado um Fetch dos links dos arquivos XML, referentes ao Feed RSS.  
+
+2 – Em seguida foi feito o parse, ou seja, foi analisado o arquivo XML e ele foi convertido para texto.  
+
+3 – Também foi limitado o número de notícias máximo para cada fonte.  
+
+4 – Em seguida foi feito o tratamento das notícias, onde foi executado o loop para gerar notícias, também a separação dos títulos, links e imagens.  
+
+5 – Após esses filtros e tratamentos das informações foi aplicado a estilização CSS para se adequar ao template padrão do site.  
+
+- Acessando o feed:
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/103666432/205678814-2bf268c1-f32b-43b9-946b-460f4e0e782f.png">
+
+- Clicando em uma notícia:
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/103666432/205678833-9139ddd6-bbdb-4c04-8d5d-bdca2bd6f59e.png">
+
+- Usuário direcionado ao portal que contém a nóticia:
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/103666432/205678853-e842f8cd-01de-4899-8b74-325b7e67fddf.png">
+
+
+
+
+
+
